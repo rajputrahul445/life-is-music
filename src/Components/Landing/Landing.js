@@ -11,9 +11,9 @@ const Landing = () => {
                 <a href='/' className='yellowBtn'>Let’s Finally Celebrate</a>
             </div>
         </div>
-        <div className='halfCol colorBg'>
-            <div className='d-block'>
-                <img src='/images/music.png' alt='' />
+        <div className='halfCol colorBg px-0'>
+            <div className='d-block fullWidth'>
+                <img src='/images/music.png' alt='' className='fullWidth' />
                 <h3>Ändern Sie Ihre Stimmung<br/>Veranstaltung mit <span className='underLineImg'>Musik</span></h3>
             </div>
             <img src='/images/tune.png' alt="" className='tuneImg'/>

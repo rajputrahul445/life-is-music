@@ -2,4 +2,4 @@
 
 body{ font-family: 'Poppins', sans-serif; }
 img{max-width: 100%;}
-a, a:hover, button{text-decoration: none; outline: none; box-shadow: none;}
+a, a:hover, button{text-decoration: none; outline: none; box-shadow: none; transition: all 500ms ease;}

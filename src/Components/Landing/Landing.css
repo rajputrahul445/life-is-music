@@ -1,0 +1,15 @@
+.landing {display: flex;min-height: 100vh;}
+.halfCol {flex-basis: 50%; display: flex; flex-wrap: wrap; align-items: center; padding: 50px; position: relative;}
+.colorBg{ background: #FDEED8; }
+.tuneImg {position: absolute;left: -25px;top: 30px;max-width: 50px;}
+.landing h1 {font-size: 40px;font-weight: 800;color: #000;margin: 0;}
+.landing p {color:  rgba(98, 113, 131, 1);margin: 20px 0 30px;}
+.yellowBtn {display: inline-flex;padding: 10px 30px;background: #FFA114;color: #fff;text-decoration: none;border-radius: 8px;}
+.landing h3 {text-align: center;margin: 30px 0 0;font-size: 28px;font-weight: 500;color: #000;}
+.underLineImg{ background: url('/public/images/underline.png') left bottom no-repeat; background-size: 100%; display: inline-block;}
+
+@media screen and (max-width: 767px) {
+    .landing {flex-wrap: wrap;}
+    .halfCol {flex-basis: 100%;order: 2;}
+    .halfCol.colorBg {order: 1;}
+}
